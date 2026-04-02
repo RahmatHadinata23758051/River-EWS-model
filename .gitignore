@@ -3,3 +3,66 @@
 __pycache__/
 
 .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Project specific
+*.pth
+*.pkl
+*.pt
+
+# Large data files (use Git LFS if needed)
+# CV Folder
+CV/data/images/
+CV/data/video/
+CV/data/annotations/
+CV/data/binary_masks/
+CV/model/
+CV/ews_results/
+
+# Ultrasonic Folder
+Ultrasonic/images/
+Ultrasonic/data/
+Ultrasonic/models/
+Ultrasonic/notebooks/
+Ultrasonic/tugas-etl-airbnb/data/
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store

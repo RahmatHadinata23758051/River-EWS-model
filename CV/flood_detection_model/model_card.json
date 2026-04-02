@@ -1,0 +1,69 @@
+{
+  "name": "Flood Detection U-Net",
+  "version": "1.0",
+  "description": "U-Net semantic segmentation model for flood water detection",
+  "created_date": "2026-03-28T02:51:41.981735",
+  "training_date": "2024-03-27",
+  "model_info": {
+    "architecture": "U-Net",
+    "input_shape": [
+      3,
+      256,
+      256
+    ],
+    "output_shape": [
+      1,
+      256,
+      256
+    ],
+    "parameters": 7765985,
+    "framework": "PyTorch 2.1.2"
+  },
+  "performance": {
+    "validation_iou": 0.9408,
+    "validation_loss": 0.0685,
+    "best_epoch": 17,
+    "total_epochs": 20
+  },
+  "training_dataset": {
+    "total_samples": 1396,
+    "folders": 6,
+    "train_split": 0.7,
+    "val_split": 0.3,
+    "image_type": "binary_masks"
+  },
+  "testing_results": {
+    "test_videos": 20,
+    "total_frames": 12981,
+    "average_water_percentage": 29.95,
+    "flood_status_distribution": {
+      "aman": 14.3,
+      "siaga": 15.8,
+      "waspada": 22.1,
+      "bahaya": 47.8
+    }
+  },
+  "usage": {
+    "quick_start": "python inference.py image.jpg",
+    "device": "CPU/GPU (auto-detect)",
+    "inference_speed_cpu": "2.8 FPS",
+    "inference_speed_gpu": "8-10 FPS",
+    "memory_required": "500MB"
+  },
+  "flood_thresholds": {
+    "aman": "<5%",
+    "siaga": "5-15%",
+    "waspada": "15-30%",
+    "bahaya": ">30%"
+  },
+  "authors": [
+    "River EWS Team"
+  ],
+  "license": "Private",
+  "tags": [
+    "flood-detection",
+    "semantic-segmentation",
+    "unet",
+    "water-detection"
+  ]
+}

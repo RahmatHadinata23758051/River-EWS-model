@@ -1,0 +1,280 @@
+{
+  "model": "U-Net (Epoch 17, Val IoU: 0.9408)",
+  "device": "cpu",
+  "total_videos": 20,
+  "total_frames": 12981,
+  "global_stats": {
+    "average_water_percentage": 29.95,
+    "max_water_percentage": 71.92,
+    "min_water_percentage": 3.22,
+    "status_distribution": {
+      "Bahaya": 6209,
+      "Waspada": 2865,
+      "Siaga": 2051,
+      "Aman": 1856
+    }
+  },
+  "video_results": [
+    {
+      "video": "2022111801.mp4",
+      "frames": 897,
+      "avg_water": 71.91938647730088,
+      "max_water": 99.69368489583333,
+      "min_water": 51.54492187500001,
+      "status_dist": {
+        "Bahaya": 897
+      },
+      "output": null
+    },
+    {
+      "video": "2022111802.mp4",
+      "frames": 416,
+      "avg_water": 23.44843207465278,
+      "max_water": 35.39964313271605,
+      "min_water": 0.0,
+      "status_dist": {
+        "Bahaya": 212,
+        "Waspada": 84,
+        "Siaga": 74,
+        "Aman": 46
+      },
+      "output": null
+    },
+    {
+      "video": "2022111803.mp4",
+      "frames": 747,
+      "avg_water": 51.725216962045415,
+      "max_water": 100.0,
+      "min_water": 40.192964480874316,
+      "status_dist": {
+        "Bahaya": 747
+      },
+      "output": null
+    },
+    {
+      "video": "2022111804.mp4",
+      "frames": 320,
+      "avg_water": 65.20827615754294,
+      "max_water": 100.0,
+      "min_water": 43.43993950039032,
+      "status_dist": {
+        "Bahaya": 320
+      },
+      "output": null
+    },
+    {
+      "video": "2022111805.mp4",
+      "frames": 1804,
+      "avg_water": 35.40617953330733,
+      "max_water": 99.60469714506172,
+      "min_water": 3.3718171296296298,
+      "status_dist": {
+        "Siaga": 197,
+        "Waspada": 546,
+        "Bahaya": 1056,
+        "Aman": 5
+      },
+      "output": null
+    },
+    {
+      "video": "2022111806.mp4",
+      "frames": 591,
+      "avg_water": 30.52701620957887,
+      "max_water": 94.91232638888889,
+      "min_water": 0.5437282986111112,
+      "status_dist": {
+        "Bahaya": 252,
+        "Waspada": 257,
+        "Siaga": 78,
+        "Aman": 4
+      },
+      "output": null
+    },
+    {
+      "video": "2022112001.mp4",
+      "frames": 1180,
+      "avg_water": 33.460842847614565,
+      "max_water": 63.55401234567901,
+      "min_water": 6.5285976080246915,
+      "status_dist": {
+        "Bahaya": 673,
+        "Waspada": 389,
+        "Siaga": 118
+      },
+      "output": null
+    },
+    {
+      "video": "2023020101.mp4",
+      "frames": 522,
+      "avg_water": 3.223583755720519,
+      "max_water": 10.8251953125,
+      "min_water": 0.0,
+      "status_dist": {
+        "Aman": 450,
+        "Siaga": 72
+      },
+      "output": null
+    },
+    {
+      "video": "2023020102.mp4",
+      "frames": 303,
+      "avg_water": 53.20556953236307,
+      "max_water": 75.76990632318501,
+      "min_water": 0.0,
+      "status_dist": {
+        "Aman": 2,
+        "Bahaya": 301
+      },
+      "output": null
+    },
+    {
+      "video": "2023020103.mp4",
+      "frames": 279,
+      "avg_water": 31.096132228965388,
+      "max_water": 71.0228825136612,
+      "min_water": 2.292398516783763,
+      "status_dist": {
+        "Bahaya": 150,
+        "Waspada": 54,
+        "Siaga": 67,
+        "Aman": 8
+      },
+      "output": null
+    },
+    {
+      "video": "2023020104.mp4",
+      "frames": 419,
+      "avg_water": 12.474972100680635,
+      "max_water": 54.661458333333336,
+      "min_water": 0.0,
+      "status_dist": {
+        "Siaga": 123,
+        "Waspada": 59,
+        "Bahaya": 66,
+        "Aman": 171
+      },
+      "output": null
+    },
+    {
+      "video": "2023020105.mp4",
+      "frames": 632,
+      "avg_water": 39.244765032880764,
+      "max_water": 56.80986533957846,
+      "min_water": 0.897736143637783,
+      "status_dist": {
+        "Aman": 10,
+        "Siaga": 10,
+        "Waspada": 90,
+        "Bahaya": 522
+      },
+      "output": null
+    },
+    {
+      "video": "2023020106.mp4",
+      "frames": 494,
+      "avg_water": 20.024806360952823,
+      "max_water": 48.24477946916472,
+      "min_water": 5.9496975019516,
+      "status_dist": {
+        "Waspada": 264,
+        "Bahaya": 75,
+        "Siaga": 155
+      },
+      "output": null
+    },
+    {
+      "video": "2023020107.mp4",
+      "frames": 1007,
+      "avg_water": 5.749383546942237,
+      "max_water": 25.48025173611111,
+      "min_water": 0.15462239583333331,
+      "status_dist": {
+        "Aman": 607,
+        "Siaga": 341,
+        "Waspada": 59
+      },
+      "output": null
+    },
+    {
+      "video": "2023020108.mp4",
+      "frames": 361,
+      "avg_water": 22.142577223280245,
+      "max_water": 47.04058159722222,
+      "min_water": 9.988823784722223,
+      "status_dist": {
+        "Bahaya": 57,
+        "Waspada": 215,
+        "Siaga": 89
+      },
+      "output": null
+    },
+    {
+      "video": "2023020202.mp4",
+      "frames": 612,
+      "avg_water": 19.28304040195313,
+      "max_water": 53.58777322404371,
+      "min_water": 0.0,
+      "status_dist": {
+        "Siaga": 212,
+        "Waspada": 169,
+        "Aman": 77,
+        "Bahaya": 154
+      },
+      "output": null
+    },
+    {
+      "video": "2023032401.mp4",
+      "frames": 808,
+      "avg_water": 16.322706039050086,
+      "max_water": 35.04465663580247,
+      "min_water": 0.0,
+      "status_dist": {
+        "Siaga": 231,
+        "Waspada": 414,
+        "Bahaya": 59,
+        "Aman": 104
+      },
+      "output": null
+    },
+    {
+      "video": "2023033001.mp4",
+      "frames": 356,
+      "avg_water": 4.621819193002308,
+      "max_water": 21.012392661982826,
+      "min_water": 0.0,
+      "status_dist": {
+        "Aman": 245,
+        "Siaga": 75,
+        "Waspada": 36
+      },
+      "output": null
+    },
+    {
+      "video": "2023033002.mp4",
+      "frames": 650,
+      "avg_water": 44.985101421533706,
+      "max_water": 60.98649691358025,
+      "min_water": 0.0,
+      "status_dist": {
+        "Aman": 3,
+        "Bahaya": 620,
+        "Waspada": 27
+      },
+      "output": null
+    },
+    {
+      "video": "2023033003.mp4",
+      "frames": 583,
+      "avg_water": 14.83581284212672,
+      "max_water": 39.34934413580247,
+      "min_water": 0.0,
+      "status_dist": {
+        "Waspada": 202,
+        "Siaga": 209,
+        "Bahaya": 48,
+        "Aman": 124
+      },
+      "output": null
+    }
+  ]
+}
