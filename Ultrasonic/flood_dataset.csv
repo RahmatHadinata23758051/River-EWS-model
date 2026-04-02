@@ -1,0 +1,161 @@
+timestamp,water_level_cm,rainfall_mm,weather_condition,ai_visual,peil_scale,status
+2026-03-27 08:00:00,18.5,0.0,Cerah,Normal / Clear,19,Aman
+2026-03-27 08:15:00,18.8,0.0,Cerah,Normal / Clear,19,Aman
+2026-03-27 08:30:00,17.8,0.0,Cerah,Normal / Clear,18,Aman
+2026-03-27 08:45:00,15.3,0.0,Cerah,Normal / Clear,15,Aman
+2026-03-27 09:00:00,13.4,0.0,Cerah,Normal / Clear,13,Aman
+2026-03-27 09:15:00,11.2,0.0,Cerah,Normal / Clear,11,Aman
+2026-03-27 09:30:00,13.1,0.0,Cerah,Normal / Clear,13,Aman
+2026-03-27 09:45:00,13.5,0.0,Cerah,Normal / Clear,14,Aman
+2026-03-27 10:00:00,13.3,0.0,Cerah,Normal / Clear,13,Aman
+2026-03-27 10:15:00,13.0,0.0,Cerah,Normal / Clear,13,Aman
+2026-03-27 10:30:00,12.2,0.0,Cerah,Normal / Clear,12,Aman
+2026-03-27 10:45:00,10.6,0.0,Cerah,Normal / Clear,11,Aman
+2026-03-27 11:00:00,10.1,0.0,Cerah,Normal / Clear,10,Aman
+2026-03-27 11:15:00,14.0,0.0,Cerah,Normal / Clear,14,Aman
+2026-03-27 11:30:00,11.8,0.0,Cerah,Normal / Clear,12,Aman
+2026-03-27 11:45:00,14.4,0.0,Cerah,Normal / Clear,14,Aman
+2026-03-27 12:00:00,14.6,0.0,Cerah,Normal / Clear,15,Aman
+2026-03-27 12:15:00,15.2,0.0,Cerah,Normal / Clear,15,Aman
+2026-03-27 12:30:00,15.7,0.0,Cerah,Normal / Clear,16,Aman
+2026-03-27 12:45:00,16.4,0.0,Cerah,Normal / Clear,16,Aman
+2026-03-27 13:00:00,17.8,0.0,Cerah,Normal / Clear,18,Aman
+2026-03-27 13:15:00,17.1,0.0,Cerah,Normal / Clear,17,Aman
+2026-03-27 13:30:00,18.0,0.0,Cerah,Normal / Clear,18,Aman
+2026-03-27 13:45:00,18.4,0.0,Cerah,Normal / Clear,18,Aman
+2026-03-27 14:00:00,17.3,0.0,Cerah,Normal / Clear,17,Aman
+2026-03-27 14:15:00,17.2,0.0,Cerah,Normal / Clear,17,Aman
+2026-03-27 14:30:00,14.8,0.0,Cerah,Normal / Clear,15,Aman
+2026-03-27 14:45:00,14.3,0.0,Cerah,Normal / Clear,14,Aman
+2026-03-27 15:00:00,14.3,0.0,Cerah,Normal / Clear,14,Aman
+2026-03-27 15:15:00,12.2,0.0,Cerah,Normal / Clear,12,Aman
+2026-03-27 15:30:00,11.2,0.0,Cerah,Normal / Clear,11,Aman
+2026-03-27 15:45:00,10.6,0.0,Cerah,Normal / Clear,11,Aman
+2026-03-27 16:00:00,10.9,0.0,Cerah,Normal / Clear,11,Aman
+2026-03-27 16:15:00,11.3,0.0,Cerah,Normal / Clear,11,Aman
+2026-03-27 16:30:00,15.0,0.0,Cerah,Normal / Clear,15,Aman
+2026-03-27 16:45:00,12.7,0.0,Cerah,Normal / Clear,13,Aman
+2026-03-27 17:00:00,13.6,0.0,Cerah,Normal / Clear,14,Aman
+2026-03-27 17:15:00,11.8,0.0,Cerah,Normal / Clear,12,Aman
+2026-03-27 17:30:00,11.1,0.0,Cerah,Normal / Clear,11,Aman
+2026-03-27 17:45:00,12.6,0.0,Cerah,Normal / Clear,13,Aman
+2026-03-27 18:00:00,23.7,29.1,Hujan Sedang,Kamera Terkena Hujan,24,Aman
+2026-03-27 18:15:00,36.2,29.8,Hujan Sedang,Kamera Terkena Hujan,36,Aman
+2026-03-27 18:30:00,46.6,29.4,Hujan Sedang,Kamera Terkena Hujan,47,Aman
+2026-03-27 18:45:00,57.6,29.0,Hujan Sedang,Air Naik Cepat,58,Siaga
+2026-03-27 19:00:00,65.3,25.6,Hujan Sedang,Air Naik Cepat,65,Siaga
+2026-03-27 19:15:00,74.0,24.5,Hujan Sedang,Air Naik Cepat,74,Siaga
+2026-03-27 19:30:00,80.5,26.5,Hujan Sedang,Air Naik Cepat,80,Siaga
+2026-03-27 19:45:00,90.1,28.2,Hujan Sedang,Air Naik Cepat,90,Siaga
+2026-03-27 20:00:00,96.8,20.9,Hujan Sedang,Air Naik Cepat,97,Siaga
+2026-03-27 20:15:00,105.5,26.2,Hujan Sedang,Sedikit Debris,106,Waspada
+2026-03-27 20:30:00,111.0,26.4,Hujan Sedang,Air Tinggi,111,Waspada
+2026-03-27 20:45:00,115.0,23.0,Hujan Sedang,Air Tinggi,115,Waspada
+2026-03-27 21:00:00,119.0,22.7,Hujan Sedang,Sedikit Debris,119,Waspada
+2026-03-27 21:15:00,122.0,17.3,Hujan Ringan,Air Tinggi,122,Waspada
+2026-03-27 21:30:00,128.6,29.4,Hujan Sedang,Air Tinggi,129,Waspada
+2026-03-27 21:45:00,132.7,16.8,Hujan Ringan,Sedikit Debris,133,Waspada
+2026-03-27 22:00:00,137.9,23.0,Hujan Sedang,Arus Deras,138,Waspada
+2026-03-27 22:15:00,144.1,22.7,Hujan Sedang,Air Tinggi,144,Waspada
+2026-03-27 22:30:00,151.7,26.3,Hujan Sedang,Banyak Sampah/Debris,152,Bahaya
+2026-03-27 22:45:00,153.2,20.1,Hujan Sedang,Area Tergenang Parah,153,Bahaya
+2026-03-27 23:00:00,155.6,26.6,Hujan Sedang,Air Keruh Meluap,156,Bahaya
+2026-03-27 23:15:00,160.3,29.9,Hujan Sedang,Air Keruh Meluap,160,Bahaya
+2026-03-27 23:30:00,165.2,28.7,Hujan Sedang,Banyak Sampah/Debris,165,Bahaya
+2026-03-27 23:45:00,167.9,22.7,Hujan Sedang,Air Keruh Meluap,168,Bahaya
+2026-03-28 00:00:00,170.0,23.8,Hujan Sedang,Area Tergenang Parah,170,Bahaya
+2026-03-28 00:15:00,167.9,15.4,Hujan Ringan,Banyak Sampah/Debris,168,Bahaya
+2026-03-28 00:30:00,168.5,22.3,Hujan Sedang,Air Keruh Meluap,169,Bahaya
+2026-03-28 00:45:00,165.3,15.5,Hujan Ringan,Banyak Sampah/Debris,165,Bahaya
+2026-03-28 01:00:00,164.1,17.3,Hujan Ringan,Area Tergenang Parah,164,Bahaya
+2026-03-28 01:15:00,165.9,24.9,Hujan Sedang,Area Tergenang Parah,166,Bahaya
+2026-03-28 01:30:00,166.1,19.6,Hujan Ringan,Area Tergenang Parah,166,Bahaya
+2026-03-28 01:45:00,168.0,19.0,Hujan Ringan,Air Keruh Meluap,168,Bahaya
+2026-03-28 02:00:00,167.5,17.7,Hujan Ringan,Area Tergenang Parah,167,Bahaya
+2026-03-28 02:15:00,164.9,16.0,Hujan Ringan,Area Tergenang Parah,165,Bahaya
+2026-03-28 02:30:00,167.3,26.3,Hujan Sedang,Banyak Sampah/Debris,167,Bahaya
+2026-03-28 02:45:00,168.6,26.4,Hujan Sedang,Air Keruh Meluap,169,Bahaya
+2026-03-28 03:00:00,171.1,29.7,Hujan Sedang,Banyak Sampah/Debris,171,Bahaya
+2026-03-28 03:15:00,174.0,29.7,Hujan Sedang,Air Keruh Meluap,174,Bahaya
+2026-03-28 03:30:00,177.4,28.4,Hujan Sedang,Area Tergenang Parah,177,Bahaya
+2026-03-28 03:45:00,178.8,23.8,Hujan Sedang,Banyak Sampah/Debris,179,Bahaya
+2026-03-28 04:00:00,195.9,57.8,Hujan Lebat,Air Keruh Meluap,196,Bahaya
+2026-03-28 04:15:00,213.0,66.2,Hujan Lebat,Banyak Sampah/Debris,213,Bahaya
+2026-03-28 04:30:00,228.5,55.9,Hujan Lebat,Banyak Sampah/Debris,229,Bahaya
+2026-03-28 04:45:00,246.6,60.1,Hujan Lebat,Banyak Sampah/Debris,247,Bahaya
+2026-03-28 05:00:00,261.3,56.9,Hujan Lebat,Air Keruh Meluap,261,Bahaya
+2026-03-28 05:15:00,278.6,63.1,Hujan Lebat,Banyak Sampah/Debris,279,Bahaya
+2026-03-28 05:30:00,300.6,73.6,Hujan Lebat,Area Tergenang Parah,301,Bahaya
+2026-03-28 05:45:00,315.5,53.4,Hujan Lebat,Area Tergenang Parah,316,Bahaya
+2026-03-28 06:00:00,330.4,53.5,Hujan Lebat,Area Tergenang Parah,330,Bahaya
+2026-03-28 06:15:00,354.5,76.9,Hujan Lebat,Banyak Sampah/Debris,355,Bahaya
+2026-03-28 06:30:00,377.9,77.7,Hujan Lebat,Area Tergenang Parah,378,Bahaya
+2026-03-28 06:45:00,400.9,73.3,Hujan Lebat,Area Tergenang Parah,401,Bahaya
+2026-03-28 07:00:00,411.6,50.4,Hujan Lebat,Banyak Sampah/Debris,412,Bahaya
+2026-03-28 07:15:00,423.7,51.0,Hujan Lebat,Banyak Sampah/Debris,424,Bahaya
+2026-03-28 07:30:00,439.5,53.9,Hujan Lebat,Area Tergenang Parah,439,Bahaya
+2026-03-28 07:45:00,451.3,51.3,Hujan Lebat,Air Keruh Meluap,451,Bahaya
+2026-03-28 08:00:00,473.1,70.1,Hujan Lebat,Area Tergenang Parah,473,Bahaya
+2026-03-28 08:15:00,492.7,63.9,Hujan Lebat,Air Keruh Meluap,493,Bahaya
+2026-03-28 08:30:00,512.0,65.9,Hujan Lebat,Banyak Sampah/Debris,512,Bahaya
+2026-03-28 08:45:00,529.8,66.3,Hujan Lebat,Area Tergenang Parah,530,Bahaya
+2026-03-28 09:00:00,552.7,74.2,Hujan Lebat,Air Keruh Meluap,553,Bahaya
+2026-03-28 09:15:00,569.9,61.1,Hujan Lebat,Area Tergenang Parah,570,Bahaya
+2026-03-28 09:30:00,592.0,77.5,Hujan Lebat,Area Tergenang Parah,592,Bahaya
+2026-03-28 09:45:00,606.5,58.1,Hujan Lebat,Air Keruh Meluap,606,Bahaya
+2026-03-28 10:00:00,621.3,52.7,Hujan Lebat,Air Keruh Meluap,621,Bahaya
+2026-03-28 10:15:00,637.8,56.5,Hujan Lebat,Air Keruh Meluap,638,Bahaya
+2026-03-28 10:30:00,651.7,53.9,Hujan Lebat,Air Keruh Meluap,652,Bahaya
+2026-03-28 10:45:00,670.4,67.6,Hujan Lebat,Air Keruh Meluap,670,Bahaya
+2026-03-28 11:00:00,691.3,67.6,Hujan Lebat,Area Tergenang Parah,691,Bahaya
+2026-03-28 11:15:00,708.3,59.1,Hujan Lebat,Air Keruh Meluap,708,Bahaya
+2026-03-28 11:30:00,700.6,0.8,Berawan,Air Keruh Meluap,701,Bahaya
+2026-03-28 11:45:00,694.7,3.1,Berawan,Air Keruh Meluap,695,Bahaya
+2026-03-28 12:00:00,689.5,2.3,Berawan,Banyak Sampah/Debris,689,Bahaya
+2026-03-28 12:15:00,684.0,1.0,Berawan,Banyak Sampah/Debris,684,Bahaya
+2026-03-28 12:30:00,674.9,0.6,Berawan,Air Keruh Meluap,675,Bahaya
+2026-03-28 12:45:00,669.8,3.8,Berawan,Area Tergenang Parah,670,Bahaya
+2026-03-28 13:00:00,661.1,0.5,Berawan,Area Tergenang Parah,661,Bahaya
+2026-03-28 13:15:00,656.7,3.9,Berawan,Area Tergenang Parah,657,Bahaya
+2026-03-28 13:30:00,651.1,4.3,Berawan,Air Keruh Meluap,651,Bahaya
+2026-03-28 13:45:00,644.6,4.8,Berawan,Air Keruh Meluap,645,Bahaya
+2026-03-28 14:00:00,637.6,3.3,Berawan,Air Keruh Meluap,638,Bahaya
+2026-03-28 14:15:00,628.8,1.6,Berawan,Air Keruh Meluap,629,Bahaya
+2026-03-28 14:30:00,624.4,3.3,Berawan,Banyak Sampah/Debris,624,Bahaya
+2026-03-28 14:45:00,617.4,2.4,Berawan,Area Tergenang Parah,617,Bahaya
+2026-03-28 15:00:00,613.0,3.4,Berawan,Banyak Sampah/Debris,613,Bahaya
+2026-03-28 15:15:00,608.0,4.5,Berawan,Banyak Sampah/Debris,608,Bahaya
+2026-03-28 15:30:00,600.9,4.1,Berawan,Air Keruh Meluap,601,Bahaya
+2026-03-28 15:45:00,592.5,1.4,Berawan,Air Keruh Meluap,592,Bahaya
+2026-03-28 16:00:00,583.6,1.5,Berawan,Area Tergenang Parah,584,Bahaya
+2026-03-28 16:15:00,576.6,4.4,Berawan,Area Tergenang Parah,577,Bahaya
+2026-03-28 16:30:00,571.1,3.3,Berawan,Air Keruh Meluap,571,Bahaya
+2026-03-28 16:45:00,565.2,2.4,Berawan,Air Keruh Meluap,565,Bahaya
+2026-03-28 17:00:00,558.3,3.5,Berawan,Air Keruh Meluap,558,Bahaya
+2026-03-28 17:15:00,551.0,3.1,Berawan,Banyak Sampah/Debris,551,Bahaya
+2026-03-28 17:30:00,544.2,4.1,Berawan,Area Tergenang Parah,544,Bahaya
+2026-03-28 17:45:00,537.9,1.9,Berawan,Air Keruh Meluap,538,Bahaya
+2026-03-28 18:00:00,530.9,0.5,Berawan,Banyak Sampah/Debris,531,Bahaya
+2026-03-28 18:15:00,523.6,1.9,Berawan,Banyak Sampah/Debris,524,Bahaya
+2026-03-28 18:30:00,515.2,0.2,Berawan,Area Tergenang Parah,515,Bahaya
+2026-03-28 18:45:00,510.7,4.7,Berawan,Banyak Sampah/Debris,511,Bahaya
+2026-03-28 19:00:00,504.3,0.8,Berawan,Area Tergenang Parah,504,Bahaya
+2026-03-28 19:15:00,495.9,2.7,Berawan,Area Tergenang Parah,496,Bahaya
+2026-03-28 19:30:00,488.8,1.6,Berawan,Area Tergenang Parah,489,Bahaya
+2026-03-28 19:45:00,481.8,4.8,Berawan,Air Keruh Meluap,482,Bahaya
+2026-03-28 20:00:00,475.6,2.5,Berawan,Area Tergenang Parah,476,Bahaya
+2026-03-28 20:15:00,467.5,1.1,Berawan,Banyak Sampah/Debris,468,Bahaya
+2026-03-28 20:30:00,459.5,2.6,Berawan,Area Tergenang Parah,460,Bahaya
+2026-03-28 20:45:00,454.0,4.1,Berawan,Air Keruh Meluap,454,Bahaya
+2026-03-28 21:00:00,449.5,3.9,Berawan,Area Tergenang Parah,450,Bahaya
+2026-03-28 21:15:00,441.2,2.7,Berawan,Area Tergenang Parah,441,Bahaya
+2026-03-28 21:30:00,433.1,0.3,Berawan,Banyak Sampah/Debris,433,Bahaya
+2026-03-28 21:45:00,423.9,0.1,Berawan,Air Keruh Meluap,424,Bahaya
+2026-03-28 22:00:00,415.7,1.1,Berawan,Air Keruh Meluap,416,Bahaya
+2026-03-28 22:15:00,411.4,2.9,Berawan,Banyak Sampah/Debris,411,Bahaya
+2026-03-28 22:30:00,403.6,2.6,Berawan,Area Tergenang Parah,404,Bahaya
+2026-03-28 22:45:00,395.2,2.0,Berawan,Banyak Sampah/Debris,395,Bahaya
+2026-03-28 23:00:00,389.8,0.5,Berawan,Banyak Sampah/Debris,390,Bahaya
+2026-03-28 23:15:00,380.9,1.1,Berawan,Area Tergenang Parah,381,Bahaya
+2026-03-28 23:30:00,373.9,2.7,Berawan,Banyak Sampah/Debris,374,Bahaya
+2026-03-28 23:45:00,366.7,2.0,Berawan,Air Keruh Meluap,367,Bahaya
