@@ -1,0 +1,101 @@
+INSTRUKSI TUGAS PRAKTIK - ETL DASAR & DATA CLEANING
+====================================================
+
+Konteks:
+Repository Git dan struktur folder kerja sudah berhasil disiapkan. Sekarang 
+saatnya kamu berperan sebagai Data Engineer untuk mengeksekusi pipeline ETL 
+(Extract, Transform, Load) menggunakan dataset New York City Airbnb Open Data.
+
+Data mentah saat ini masih memiliki nilai kosong, tipe data yang tidak tepat, 
+dan kolom yang tidak relevan. Tugasmu adalah membersihkan data tersebut dan 
+membuat visualisasi sederhana untuk menemukan insight.
+
+Struktur folder saat ini:
+
+    STUDI_KASUS_MAGANG/
+    ├── notebooks/
+    │   └── etl_airbnb.ipynb
+    ├── tugas-etl-airbnb/
+    │   └── data/
+    │       ├── clean/
+    │       └── raw/
+    │           ├── AB_NYC_2019.csv
+    │           ├── archive.zip
+    │           └── New_York_City_.png
+    ├── .gitignore
+    ├── README.md
+    └── requirements.txt
+
+================================================================================
+TAHAP 2: EXTRACT (Membaca Data)
+================================================================================
+
+- Buat file Jupyter Notebook baru bernama etl_airbnb.ipynb di folder notebooks/
+- Gunakan library Pandas untuk membaca dataset (.csv) dari folder data/raw/
+- Tampilkan 5 baris pertama dari data
+- Tampilkan info dataset (tipe data dan jumlah baris/kolom)
+
+================================================================================
+TAHAP 3: TRANSFORM (Data Cleaning)
+================================================================================
+
+Gunakan Markdown cell di Jupyter Notebook untuk menjelaskan alasan dari setiap 
+langkah yang dieksekusi:
+
+Handling Missing Values:
+------------------------
+- Temukan kolom mana saja yang memiliki nilai kosong (null/NaN)
+- Isi nilai kosong pada kolom reviews_per_month dengan angka 0 
+  (asumsi: tidak ada ulasan berarti 0)
+- Hapus baris data yang memiliki nilai kosong pada kolom name atau host_name
+
+Data Formatting:
+----------------
+- Ubah tipe data pada kolom last_review menjadi format datetime
+
+Data Filtering:
+---------------
+- Hapus kolom id dan host_name karena tidak relevan untuk analisis bisnis
+- Bersihkan data dari anomali: Hapus baris di mana harga sewa (price) adalah 0
+
+================================================================================
+TAHAP 4: VISUALISASI DATA SEDERHANA
+================================================================================
+
+Gunakan Matplotlib atau Seaborn untuk menjawab pertanyaan dasar berikut:
+
+1. Buat Bar Chart yang menunjukkan rata-rata harga sewa (price) di masing-masing 
+   wilayah (neighbourhood_group)
+
+2. Buat Scatter Plot sederhana yang memetakan lokasi penyewaan berdasarkan 
+   longitude dan latitude (warnai titiknya berdasarkan neighbourhood_group)
+
+================================================================================
+TAHAP 5: LOAD (Menyimpan Data)
+================================================================================
+
+- Simpan DataFrame yang sudah bersih ke dalam format .csv baru
+- Letakkan file tersebut di folder data/clean/ dengan nama airbnb_cleaned.csv
+
+================================================================================
+TAHAP 6: DOKUMENTASI & VERSION CONTROL
+================================================================================
+
+- Tulis ringkasan di file README.md yang menjelaskan:
+  * Tujuan dari project ini
+  * Kesimpulan singkat dari visualisasi (misal: wilayah mana yang paling mahal)
+
+- Simpan semua perubahan, lalu lakukan commit dan push ke repository GitHub/GitLab
+  Contoh pesan commit: "feat: menyelesaikan proses ETL, cleaning, dan visualisasi"
+
+================================================================================
+CATATAN TEKNIS
+================================================================================
+
+Path Relatif (karena notebook ada di folder notebooks/):
+- Input:  ../tugas-etl-airbnb/data/raw/AB_NYC_2019.csv
+- Output: ../tugas-etl-airbnb/data/clean/airbnb_cleaned.csv
+
+Urutan transformasi penting karena ada dependency antar langkah.
+
+================================================================================
