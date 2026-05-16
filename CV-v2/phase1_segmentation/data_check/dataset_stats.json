@@ -1,0 +1,55 @@
+{
+  "riwa_train": {
+    "split": "riwa_train",
+    "total_images": 1142,
+    "total_masks": 1142,
+    "matched_pairs": 1142,
+    "img_no_mask": 0,
+    "mask_no_img": 0,
+    "mask_format": "255",
+    "avg_width": 1524,
+    "avg_height": 1130,
+    "min_width": 681,
+    "min_height": 518
+  },
+  "riwa_val": {
+    "split": "riwa_val",
+    "total_images": 167,
+    "total_masks": 167,
+    "matched_pairs": 167,
+    "img_no_mask": 0,
+    "mask_no_img": 0,
+    "mask_format": "255",
+    "avg_width": 0,
+    "avg_height": 0,
+    "min_width": 0,
+    "min_height": 0
+  },
+  "riwa_test": {
+    "split": "riwa_test",
+    "total_images": 323,
+    "total_masks": 323,
+    "matched_pairs": 323,
+    "img_no_mask": 0,
+    "mask_no_img": 0,
+    "mask_format": "255",
+    "avg_width": 1459,
+    "avg_height": 1127,
+    "min_width": 532,
+    "min_height": 519
+  },
+  "roboflow_train": {
+    "split": "roboflow_train",
+    "total_images": 1707,
+    "total_masks": 1581,
+    "matched_pairs": 1581,
+    "img_no_mask": 126,
+    "mask_no_img": 0,
+    "mask_format": "1",
+    "avg_width": 0,
+    "avg_height": 0,
+    "min_width": 0,
+    "min_height": 0
+  },
+  "total_pairs": 3213
+}

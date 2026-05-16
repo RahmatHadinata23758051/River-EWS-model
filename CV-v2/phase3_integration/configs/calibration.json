@@ -1,0 +1,32 @@
+{
+  "_comment": "Kalibrasi pixel ke cm untuk River EWS",
+  "camera_id": "river_cam_01",
+  "calibration_date": "2026-05-16",
+  "image_resolution": {
+    "width": 1280,
+    "height": 720
+  },
+  "gauge_roi": {
+    "x1": 947,
+    "y1": 519,
+    "x2": 941,
+    "y2": 202
+  },
+  "calibration_points": [
+    {
+      "pixel_y": 519,
+      "real_cm": 50.0
+    },
+    {
+      "pixel_y": 202,
+      "real_cm": 290.0
+    }
+  ],
+  "model": {
+    "type": "linear",
+    "slope": -0.7570977917981072,
+    "intercept": 442.93375394321765,
+    "r_squared": 1.0
+  },
+  "status": "CALIBRATED"
+}

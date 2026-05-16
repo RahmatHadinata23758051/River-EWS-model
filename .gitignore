@@ -66,3 +66,23 @@ Ultrasonic/tugas-etl-airbnb/data/
 # OS
 Thumbs.db
 .DS_Store
+
+# --- River EWS Media & Outputs ---
+# Media Files (Images & Videos)
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.jfif
+*.bmp
+*.gif
+
+# CV-v2 Datasets & Outputs
+CV-v2/dataset_colab.zip
+CV-v2/phase1_segmentation/output/
+CV-v2/phase2_gauge/output/
+CV-v2/phase1_segmentation/dataset_extracted/
+CV/test-video/

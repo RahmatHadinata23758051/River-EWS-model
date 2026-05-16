@@ -1,0 +1,4 @@
+# Models saved here after training
+# best_seg_model.pth       ← best checkpoint (IoU)
+# last_seg_model.pth       ← last epoch checkpoint
+# training_log.json        ← training history
