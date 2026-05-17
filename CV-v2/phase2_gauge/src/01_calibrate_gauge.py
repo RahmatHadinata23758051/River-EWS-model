@@ -13,7 +13,7 @@ CONFIG_PATH = CONFIG_DIR / "calibration.json"
 # Pastikan folder config ada
 CONFIG_DIR.mkdir(parents=True, exist_ok=True)
 
-# Variabel Global untuk GUI OpenCV
+# Variabel Global untuk GUI OpenCV dan image processing
 points = []
 frame_display = None
 frame_clean = None
